@@ -52,8 +52,18 @@ header nav ul li a {
   font-family: Montserrat;
   font-size: 18px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   line-height: normal;
+  padding-bottom: 8px;
+}
+header nav ul li:hover a {
+  border-bottom: 2px solid var(--main-primary-color, #ffffff);
+  font-weight: 700;
+}
+
+header nav ul li:focus-within a {
+  border-bottom: 2px solid var(--main-primary-color, #ffffff);
+  font-weight: 700;
 }
 
 .menu-icon-container {
